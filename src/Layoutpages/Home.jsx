@@ -1,6 +1,6 @@
 import React from 'react';
 import Home1 from './Home1'
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar.jsx';
 import Products from './Products';
 import About from './About'
 import Contact from '../components/contact';
@@ -8,12 +8,12 @@ import Contact from '../components/contact';
 function Home() {
   return (  
     <>
-   <Navbar/>
-   <Home1/>
-   <Products />
-   <About/>
-   <Contact/>
-  
+      <Navbar />
+      <Home1 />
+      <Products />
+      <About />
+      <Contact />
+
     </>
   )
 }
