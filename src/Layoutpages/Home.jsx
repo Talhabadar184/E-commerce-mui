@@ -3,7 +3,7 @@ import Home1 from './Home1'
 import Products from './Products';
 import About from './About'
 import Contact from '../components/contact';
-import Navbar from '../components/Navbar.jsx';
+import Navbar from '../components/Navbar';
 
 function Home() {
   return (  
