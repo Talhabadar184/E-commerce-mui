@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container, Box, Typography, Button } from '@mui/material';
 import { useParams, useNavigate } from 'react-router-dom';
 import { GlobalContext } from '../Context/Index';
-import Navbar from './components/Navbar.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 
 function Producttile() {
