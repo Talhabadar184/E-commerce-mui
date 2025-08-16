@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container, Box, Typography, Button } from '@mui/material';
 import { useParams, useNavigate } from 'react-router-dom';
 import { GlobalContext } from '../Context/Index';
-import Navbar from '../components/Navbar'; // Ensure correct import path
+import Navbar from '../components/Navbar.jsx'; // Ensure correct import path
 
 function Producttile() {
   const navigate = useNavigate(); 
