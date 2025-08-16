@@ -1,9 +1,9 @@
 import React from 'react';
 import Home1 from './Home1'
-import Navbar from '../components/Navbar';
 import Products from './Products';
 import About from './About'
 import Contact from '../components/contact';
+import Navbar from '../components/Navbar.jsx';
 
 function Home() {
   return (  
